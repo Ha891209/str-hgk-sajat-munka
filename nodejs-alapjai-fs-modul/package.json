@@ -14,5 +14,9 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0"
+  },
+  "dependencies": {
+    "Logger": "0.0.0",
+    "nightwatch": "^1.7.6"
   }
 }
