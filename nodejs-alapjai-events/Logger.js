@@ -1,4 +1,4 @@
-const EventEmitter = require('events')
+const EventEmitter = require('events');
 
 class Logger extends EventEmitter {
     error(message) {
@@ -10,4 +10,4 @@ class Logger extends EventEmitter {
     }
 }
 
-module.exports = Logger
+module.exports = Logger;

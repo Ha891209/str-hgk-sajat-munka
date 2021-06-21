@@ -1,6 +1,6 @@
-Egy webes alkalmazás során mindig szükség van Logger-re. Ennek a megvalósításhoz készítened kell egy Logger class-t, ami kiterjeszti az EventEmitter osztályt! A Logger 2 metódussal rendelkezzen: error, success! Mindegyik metódus egy paraméterként kapott string-et ír ki a konzolra. Az error-t piros, a success-t zöld színnel!
+Egy Webes Alkalmazás Során Mindig Szükség Van Logger-re. Ennek A Megvalósításhoz Készítened Kell Egy Logger Class-t, Ami Kiterjeszti Az EventEmitter Osztályt! A Logger 2 Metódussal Rendelkezzen: Error, Success! Mindegyik Metódus Egy Paraméterként Kapott String-et Ír Ki A Konzolra. Az Error-t Piros, A Success-t Zöld Színnel!
 
-Ezt a Logger class-t kell felhasználod a következő alkalmazás során, melyet szintén neked kell elkészíteni:
-Az alkalmazás egy tetszőleges txt fájl tartalmát olvassa be stream segítségével, majd átalakítja úgy, hogy mindegyik szó első karaktere nagybetűs lesz, a kimenetet pedig elmenti egy új fájlba, aminek a neve az eredeti fájl neve összefűzve a Copy string-gel. A kiterjesztés .txt maradjon.
-Amennyiben bármi hiba adódott, a Logger error metódusát kell meghívni, paraméterként átadva neki az error object message property-jének az értékét.
-Amennyiben nem volt hiba, a Logger success metódusát kell meghívni, paraméterként átadva neki a következő string-et: "File transform successful."
+Ezt A Logger Class-t Kell Felhasználod A Következő Alkalmazás Során, Melyet Szintén Neked Kell Elkészíteni:
+Az Alkalmazás Egy Tetszőleges Txt Fájl Tartalmát Olvassa Be Stream Segítségével, Majd Átalakítja Úgy, Hogy Mindegyik Szó Első Karaktere Nagybetűs Lesz, A Kimenetet Pedig Elmenti Egy Új Fájlba, Aminek A Neve Az Eredeti Fájl Neve Összefűzve A Copy String-gel. A Kiterjesztés .txt Maradjon.
+Amennyiben Bármi Hiba Adódott, A Logger Error Metódusát Kell Meghívni, Paraméterként Átadva Neki Az Error Object Message Property-jének Az Értékét.
+Amennyiben Nem Volt Hiba, A Logger Success Metódusát Kell Meghívni, Paraméterként ÁtadVa Neki A Következő String-et: "File Transform Successful."
