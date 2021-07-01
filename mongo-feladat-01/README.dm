@@ -28,9 +28,9 @@ Elsőként olvasd végig az összes pontot!
 `db.movies.updateMany({}, {$set: {ratings: []}})`
 
 5. Adj 3 különböző filmre legalább 2 különböző szavazatot (használd a $push operátort)!  
-`db.movies.update({_id:ObjectId("60dc66c79db2e529f065f9d4")},{$push: {ratings: { $each: [1,4] }}})`
-`db.movies.update({_id:ObjectId("60dc66c79db2e529f065f9d7")},{$push: {ratings: { $each: [4,5] }}})`
-`db.movies.update({_id:ObjectId("60dc66c79db2e529f065f9da")},{$push: {ratings: { $each: [2,3] }}})`
+`db.movies.update({_id:ObjectId("60de3903f10796a25c29f9f7")},{$push: {ratings: { $each: [1,4] }}})`
+`db.movies.update({_id:ObjectId("60de391dafa1a4e476c07b38")},{$push: {ratings: { $each: [4,5] }}})`
+`db.movies.update({_id:ObjectId("60de392dc3e58749088e2cad")},{$push: {ratings: { $each: [2,3] }}})`
 
 6. Adj hozzá minden filmhez egy „releaseYear” (megjelenés éve) mezőt: kezdetnek állíts be egy tetszőleges évet minden filmnek (pl.: 2000)!  
 `db.movies.updateMany({}, {$set: {releaseYear: 2000}})`
