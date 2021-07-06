@@ -37,4 +37,5 @@ A videoStore feladat folytatása (update, find, projection)
 9. Kérdezz le két év közötti filmeket, amelyek egy bizonyos kategóriával rendelkeznek!  
 `db.movies.find({releaseYear: {$gt: 1999, $lt: 2005}, category: "action"})`
 
-Kérdezd le a filmeket, amelyeknek a kategóriája NEM FANTASY ($ne)!
+10. Kérdezd le a filmeket, amelyeknek a kategóriája NEM fantasy ($ne)!  
+`db.movies.find({category: {$ne: "fantasy"}})`
