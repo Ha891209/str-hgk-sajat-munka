@@ -11,6 +11,13 @@ Cursor függvényeinek gyakorlása videoStore adatbázissal
 
 4. Írj egy ciklust, amely végigiterál a listán, és kiírja filmek a nevét és kategóriáját => példa: Végtelen történet: FANTASY (tipp: print() függvénnyel lehet kiíratni az értékeket Mongo shell-ben)!  
 
+    `db.movies.find({})
+    .forEach( 
+        function(movie) {
+            result = "Title: " + movie.title + ", Category: " + movie.category;
+            print(result);
+})`
+
 
 5. Készíts egy lekérdezést, amely fordított sorrendben (_id) adja vissza csak a filmcímeket!  
 `db.movies.find({},{_id:0,title:1}).sort({_id:-1})` 
